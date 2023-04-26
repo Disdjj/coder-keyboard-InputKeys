@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "keyboardinput"
+version = "0.1.0"
+description = ""
+authors = ["DJJ <daijianhao@xiaobing.com>"]
+readme = "README.md"
+
+
+[[tool.poetry.source]]
+name = "tsinghua"
+url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple/"
+default = true
+
+[tool.poetry.dependencies]
+python = "3.11.2"
+pynput = "^1.7.6"
+schedule = "^1.2.0"
+apscheduler = "^3.10.1"
+matplotlib = "^3.7.1"
+invoke = "^2.0.0"
+pyinstaller = "^5.10.1"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
