@@ -1,5 +1,4 @@
 # KeyboardInput
-
 > A util that can record your keyboard input
 
 ## Usage
