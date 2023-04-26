@@ -3,8 +3,8 @@ import json
 import pathlib
 from collections import Counter
 
-from pynput import keyboard
 from apscheduler.schedulers.background import BackgroundScheduler
+from pynput import keyboard
 
 
 # file writing
